@@ -8,9 +8,9 @@
 
     "dev": "nodemon src/index.ts",
 
-    "build": "tsc",
+    "build": "npm install",
 
-    "start": "node dist/index.js"
+    "start": "ts-node src/index.ts"
 
   },
 
